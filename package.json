@@ -1,0 +1,27 @@
+{
+  "name": "devtools-cli",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool for developers with API integrations",
+  "main": "dist/index.js",
+  "bin": {
+    "devtools": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["cli", "developer-tools", "api"],
+  "author": "Adarsh Priydarshi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
